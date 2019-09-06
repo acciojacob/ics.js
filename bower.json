@@ -2,7 +2,7 @@
   "name": "ics.js",
   "main": "ics.js",
   "version": "0.1.3",
-  "homepage": "https://github.com/nwcell/ics.js",
+  "homepage": "https://github.com/acciojacob/ics.js",
   "contributors": [
     "Travis Krause <travis@codeforemen.com>",
     "Kyle Hornberg <kyle.hornberg@gmail.com>"
@@ -25,5 +25,9 @@
   "dependencies": {
     "Blob.js": "eligrey/Blob.js",
     "FileSaver": "*"
-  }
+  },
+  "authors": [
+    "Jacob Rienstra <jacobr@fb.com>"
+  ],
+  "private": true
 }
