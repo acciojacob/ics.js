@@ -19,7 +19,7 @@ var ics = function(uidDomain, prodId) {
     prodId = "Calendar";
   }
 
-  var SEPARATOR = navigator.appVersion.indexOf("Win") !== -1 ? "\r\n" : "\n";
+  var SEPARATOR = "\r\n";
   var calendarEvents = [];
   var calendarStart = [
     "BEGIN:VCALENDAR",
