@@ -1,3 +1,6 @@
 node_modules/
 bower_modules/
+bower_components
+ics.deps.js
+package-lock.json
 .DS_Store
