@@ -74,7 +74,11 @@ var ics = function(uidDomain, prodId) {
         typeof begin === "undefined" ||
         typeof stop === "undefined"
       ) {
-        return false;
+        throw "missing arguments";
+      }
+
+      if (begin === null || begin === "" || stop === null || stop === "") {
+        throw "dates cannot be null or empty string";
       }
 
       // validate rrule
