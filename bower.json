@@ -2,10 +2,11 @@
   "name": "ics.js",
   "main": "ics.js",
   "version": "0.1.3",
-  "homepage": "https://github.com/acciojacob/ics.js",
+  "homepage": "https://github.com/jacobrienstra/ics.js",
   "contributors": [
     "Travis Krause <travis@codeforemen.com>",
-    "Kyle Hornberg <kyle.hornberg@gmail.com>"
+    "Kyle Hornberg <kyle.hornberg@gmail.com>",
+    "Jacob Rienstra <jacobdrienstra@gmail.com>"
   ],
   "description": "A browser firendly .ics/.vcs file generator written entirely in javascript",
   "keywords": [
@@ -27,7 +28,7 @@
     "FileSaver": "*"
   },
   "authors": [
-    "Jacob Rienstra <jacobr@fb.com>"
+    "Jacob Rienstra <jacobdrienstra@gmail.com>"
   ],
   "private": true
 }
